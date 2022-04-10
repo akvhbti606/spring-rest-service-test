@@ -8,6 +8,6 @@ public class TestController {
     
     @GetMapping
     public String show() {
-        return "Hello from Test Service";
+        return "Hello from Test Service and Azure";
     }
 }
