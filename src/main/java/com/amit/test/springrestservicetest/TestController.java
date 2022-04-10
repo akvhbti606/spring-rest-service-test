@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     
     @GetMapping
-    public String show() {
+    public String hello() {
         return "Hello from Test Service and Azure";
     }
 
