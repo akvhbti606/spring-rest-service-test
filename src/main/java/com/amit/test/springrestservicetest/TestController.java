@@ -10,4 +10,9 @@ public class TestController {
     public String show() {
         return "Hello from Test Service and Azure";
     }
+
+    @GetMapping("/show")
+    public String show() {
+        return "Hello from Azure";
+    }
 }
